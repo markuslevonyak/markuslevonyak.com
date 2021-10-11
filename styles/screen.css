@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Avrile-Sans-Condensed-Thin';
+  src: url('../fonts/Avrile-Sans-Condensed-Thin.ttf.woff') format('woff'),
+       url('../fonts/Avrile-Sans-Condensed-Thin.ttf.svg#Avrile-Sans-Condensed-Thin') format('svg'),
+       url('../fonts/Avrile-Sans-Condensed-Thin.ttf.eot'),
+       url('../fonts/Avrile-Sans-Condensed-Thin.ttf.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  font-family: 'Avrile-Sans-Condensed-Thin';
+  font-size: 12pt;
+}
+
+body, a {
+  color: #202020;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #808080;
+}
+
+.column {
+  flex: 50%;
+  padding: 2em;
+  padding-top: 3em;
+  height: 100%;
+}
+
+#left {
+  background-color: #dcdcdc;
+  text-align: right;
+}
+
+#left img {
+  max-width: 100%;
+  height: auto;
+}
+
+#right {
+  background-color: white;
+}
+
+#right h1 {
+  font-size: 5em;
+  font-weight: normal;
+  line-height: 100%;
+  color: #808080;
+}
+
+.roles {
+  margin-top: 1em;
+  margin-bottom: 2.5em;
+}
+
+.roles ul {
+  display: flex;
+  list-style: none;
+}
+
+.roles ul li {
+  font-size: 1.5em;
+  line-height: 100%;
+  margin-right: 0.6em;
+}
+
+.info {
+  display: flex;
+  font-size: 1.5em;
+  line-height: 200%;
+}
+
+.info div {
+  margin-right: 0.6em;
+}
+
+.social {
+  margin-top: 2em;
+}
+
+.icon {
+  fill: #808080;
+}
+
+.social .icon:hover {
+  fill: #202020;
+}
