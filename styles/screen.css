@@ -19,6 +19,7 @@
 
 html, body {
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -42,22 +43,28 @@ a:hover {
 
 .column {
   flex: 50%;
-  padding: 2em;
   height: 100%;
 }
 
+.column .wrapper {
+  padding-left: min(2em, 3vw);
+  padding-top: 4em;
+  padding-right: min(2em, 3vw);
+  padding-bottom: 3em;
+  min-height: 100%;
+}
+
 #left {
-  padding-top: 3em;
   text-align: right;
 }
 
 #left img {
   max-width: 100%;
+  width: 21.4em;
   height: auto;
 }
 
-#right {
-  padding-top: 4em;
+#right .wrapper {
   background-color: white;
 }
 
