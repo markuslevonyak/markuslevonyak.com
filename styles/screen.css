@@ -75,24 +75,11 @@ a:hover {
   color: #808080;
 }
 
-.roles {
-  margin-top: 1em;
-  margin-bottom: 2.5em;
-}
-
-.roles ul {
-  display: flex;
-  list-style: none;
-}
-
-.roles ul li {
-  font-size: 1.5em;
-  line-height: 100%;
-  margin-right: 0.6em;
-}
-
-.roles ul li:last-child {
-  margin-right: 0;
+#right h2 {
+  margin-bottom: 2rem;
+  font-size: 2.2em;
+  font-weight: normal;
+  color: #404040;
 }
 
 .info {
@@ -105,14 +92,19 @@ a:hover {
   margin-right: 0.6em;
 }
 
+.info i, .social a {
+  margin-right: 1.5rem;
+}
+
 .social {
-  margin-top: 2em;
+  margin-top: 2rem;
 }
 
 .icon {
-  fill: #808080;
+  font-size: 2rem;
+  color: #808080;
 }
 
 .social .icon:hover {
-  fill: #202020;
+  color: #202020;
 }
