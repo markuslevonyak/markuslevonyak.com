@@ -114,6 +114,11 @@ a:hover {
   margin-right: 1.5rem;
 }
 
+.info ul {
+  display: inline;
+  list-style: none;
+}
+
 .social {
   margin-top: 2rem;
 }
